@@ -30,7 +30,7 @@ Device Details Overlay:
 
 <img width="1551" height="722" alt="Page1Overlay" src="https://github.com/user-attachments/assets/c44a8c45-978c-451f-9366-6f0b751d20cb" />
 
-Price Prediction :The second page focuses on predictions. The admin can predict the price of any device based on market data. Two machine learning models based on Linear Regression were used: one predicts the best price of a laptop, and the other predicts the best price of a phone.
+Price Prediction :The second page focuses on predictions. The admin can predict the price of any device based on market and competitors prices. Two machine learning models based on Linear Regression were used: one predicts the best price of a laptop, and the other predicts the best price of a phone.
 
 
 <img width="1550" height="722" alt="Predictions Page2" src="https://github.com/user-attachments/assets/39fc8a54-b4b3-46a1-abf3-859cd563326f" />
