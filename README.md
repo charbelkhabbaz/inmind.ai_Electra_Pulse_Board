@@ -12,4 +12,42 @@ Page 1: On the first page, the admin can Create, Edit, or Delete any device in t
 
 <img width="1551" height="722" alt="Page1Overlay" src="https://github.com/user-attachments/assets/c44a8c45-978c-451f-9366-6f0b751d20cb" />
 
-<img width="1550" height="724" alt="Scenarios(edit price or discount)" src="https://github.com/user-attachments/assets/e63ed937-92d0-4f4f-b55c-4b38b4b018d5" />
+Page 2:The second page focuses on predictions. The admin can predict the price of any device based on market data. Two machine learning models based on Linear Regression were used: one predicts the best price of a laptop, and the other predicts the best price of a phone.
+
+
+<img width="1550" height="722" alt="Predictions Page2" src="https://github.com/user-attachments/assets/39fc8a54-b4b3-46a1-abf3-859cd563326f" />
+
+Page 3: The main focus of this page is to display customer repair requests and order requests. The admin can toggle the status of any request once it is completed, and the sales details (cost, revenue, and profit) will automatically be added to the Sales and Profits table (last page).
+
+<img width="1551" height="725" alt="Repair request page 3" src="https://github.com/user-attachments/assets/41611512-7ed6-43be-a7a0-013af24144bf" />
+
+<img width="1551" height="728" alt="Repair Request page3 overlay" src="https://github.com/user-attachments/assets/514f082d-abd0-470c-8e4b-50c527618ee6" />
+
+
+
+<img width="1550" height="720" alt="Order Request page 3" src="https://github.com/user-attachments/assets/c3f63cf4-40d9-436c-8af1-87139b1219ef" />
+
+<img width="1549" height="725" alt="Order Request page 3 overlay" src="https://github.com/user-attachments/assets/8eece965-5bae-4bf9-b6b1-6ac7fbb438cb" />
+
+Order Tab: Two cases are considered. If the requested quantity exists in stock, the customer directly receives the order. If the quantity is not available, the retailer must request it from the supplier, and this is where Page 4 comes into play.
+
+Page 4: The idea is that the retailer selects the nearest supplier to minimize transportation costs. The map is used for this purpose, and by simply clicking on any supplier, the admin can either place a call or create an order with that supplier.
+
+<img width="1307" height="613" alt="Example Page4" src="https://github.com/user-attachments/assets/050fc9b3-fa36-44f3-84ab-efd5d6da2b09" />
+
+Phone Details: 
+
+<img width="1550" height="726" alt="Phone Details in a Company page4" src="https://github.com/user-attachments/assets/800b9cfa-0452-4d37-90c0-40cbab403d60" />
+
+Order Details: 
+
+<img width="1550" height="721" alt="Supplier and Order Details" src="https://github.com/user-attachments/assets/bdf67b41-1d68-4f97-a58f-f0907f70f152" />
+
+Page 5: Sales and Profits: This page displays all transactions in a table, representing completed order requests or repair requests. On the right, the most frequently asked questions by the admin are answered dynamically using charts.
+
+<img width="1550" height="718" alt="Sales and profits page5" src="https://github.com/user-attachments/assets/a5c5b7eb-77af-4297-82f0-867051464995" />
+
+For example, let’s assume the admin clicks on Revenue and Cost per Month: an overlay will open displaying the charts, with an option to download them as a PDF. The charts are dynamic, meaning any applied filter will affect all of them.
+
+<img width="1549" height="723" alt="Q5 page5" src="https://github.com/user-attachments/assets/752b5e14-a39e-4899-8947-d97d5eae5f7d" />
+
