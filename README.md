@@ -6,7 +6,7 @@ During the internship at inmind.ai, the final project involved developing a dash
 
 Note:This project is done in Palantir Foundry and Due to Palantir’s limitations, only screenshots with explanations will be provided for this project.
 
-This is how the data lineage looks and how the data flows. Additionally, health checks are performed on the input, such as schema validation, and expectations are applied to the output, including last build time and primary key checks. A schedule is also set up to trigger the output whenever the connected input is updated.
+This is how the data lineage looks and how the data flows. Additionally, health checks are performed on the input, such as schema validation, and expectations are applied to the output, including last time build and primary key checks. A schedule is also set up to trigger the output whenever the connected input is updated.
 
 <img width="1284" height="550" alt="Data Lineage" src="https://github.com/user-attachments/assets/3697d7a8-a0c9-497d-aa5d-dc63bfc74bba" />
 
@@ -26,6 +26,8 @@ Inventory: On the first page, the admin can Create, Edit, or Delete any device i
 
 <img width="1544" height="723" alt="page1" src="https://github.com/user-attachments/assets/907e75a9-a1c2-467a-b84c-aad4e8d7a44a" />
 
+Device Details Overlay: 
+
 <img width="1551" height="722" alt="Page1Overlay" src="https://github.com/user-attachments/assets/c44a8c45-978c-451f-9366-6f0b751d20cb" />
 
 Price Prediction :The second page focuses on predictions. The admin can predict the price of any device based on market data. Two machine learning models based on Linear Regression were used: one predicts the best price of a laptop, and the other predicts the best price of a phone.
@@ -37,13 +39,18 @@ Repair and Orders : The main focus of this page is to display customer repair re
 
 <img width="1551" height="725" alt="Repair request page 3" src="https://github.com/user-attachments/assets/41611512-7ed6-43be-a7a0-013af24144bf" />
 
+Repair  Details Overlay: 
+
 <img width="1551" height="728" alt="Repair Request page3 overlay" src="https://github.com/user-attachments/assets/514f082d-abd0-470c-8e4b-50c527618ee6" />
 
 
 
 <img width="1550" height="720" alt="Order Request page 3" src="https://github.com/user-attachments/assets/c3f63cf4-40d9-436c-8af1-87139b1219ef" />
 
-<img width="1549" height="725" alt="Order Request page 3 overlay" src="https://github.com/user-attachments/assets/8eece965-5bae-4bf9-b6b1-6ac7fbb438cb" />
+Order Details Overlay: 
+
+<img width="1551" height="687" alt="Oder Request page 3 overlay" src="https://github.com/user-attachments/assets/fec10cb4-bdd4-4246-b9f1-4287321ba5e0" />
+
 
 Order Tab: Two cases are considered. If the requested quantity exists in stock, the customer directly receives the order. If the quantity is not available, the retailer must request it from the supplier, and this is where Page 4 comes into play.
 
@@ -66,4 +73,6 @@ Sales and Profits : Sales and Profits: This page displays all transactions in a 
 For example, let’s assume the admin clicks on Revenue and Cost per Month: an overlay will open displaying the charts, with an option to download them as a PDF. The charts are dynamic, meaning any applied filter will affect all of them.
 
 <img width="1549" height="723" alt="Q5 page5" src="https://github.com/user-attachments/assets/752b5e14-a39e-4899-8947-d97d5eae5f7d" />
+
+<img width="1600" height="859" alt="pdf" src="https://github.com/user-attachments/assets/5276790b-5024-4a5f-968c-2e9762871f87" />
 
