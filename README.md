@@ -4,7 +4,7 @@
 
 During the internship at inmind.ai, the final project involved developing a dashboard for the admin of an electronics retail business operating several branches across different countries. This project is a supply chain project, with the admin acting as the retailer.
 
-Note: Due to Palantir’s limitations, only screenshots with explanations will be provided for this project.
+Note:This project is done in Palantir Foundry and Due to Palantir’s limitations, only screenshots with explanations will be provided for this project.
 
 Page 1: On the first page, the admin can Create, Edit, or Delete any device in the inventory. In addition, the admin can create scenarios to change prices (either by editing the price or applying a discount) and observe how the dashboard reacts. This feature helps the admin make informed business decisions. Scenarios can be saved for later use, shared with other admins, or applied directly to update the real data in the dashboard.
 
