@@ -4,7 +4,7 @@
 
 During the internship at inmind.ai, the final project involved developing a dashboard for the admin of an electronics retail business operating several branches across different countries. This project is a supply chain project, with the admin acting as the retailer.
 
-Note: This project is done in Palantir Foundry and Due to Palantir’s limitations, only screenshots with explanations will be provided for this project.
+## Note: This project is done in Palantir Foundry and Due to Palantir’s limitations, only screenshots with explanations will be provided for this project.
 
 This is how the data lineage looks and how the data flows. Additionally, health checks are performed on the input, such as schema validation, and expectations are applied to the output, including last time build and primary key checks. A schedule is also set up to trigger the output whenever the connected input is updated.
 
