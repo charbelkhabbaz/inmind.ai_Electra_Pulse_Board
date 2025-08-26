@@ -6,18 +6,18 @@ During the internship at inmind.ai, the final project involved developing a dash
 
 Note:This project is done in Palantir Foundry and Due to Palantir’s limitations, only screenshots with explanations will be provided for this project.
 
-Page 1: On the first page, the admin can Create, Edit, or Delete any device in the inventory. In addition, the admin can create scenarios to change prices (either by editing the price or applying a discount) and observe how the dashboard reacts. This feature helps the admin make informed business decisions. Scenarios can be saved for later use, shared with other admins, or applied directly to update the real data in the dashboard.
+Inventory: On the first page, the admin can Create, Edit, or Delete any device in the inventory. In addition, the admin can create scenarios to change prices (either by editing the price or applying a discount) and observe how the dashboard reacts. This feature helps the admin make informed business decisions. Scenarios can be saved for later use, shared with other admins, or applied directly to update the real data in the dashboard.
 
 <img width="1544" height="723" alt="page1" src="https://github.com/user-attachments/assets/907e75a9-a1c2-467a-b84c-aad4e8d7a44a" />
 
 <img width="1551" height="722" alt="Page1Overlay" src="https://github.com/user-attachments/assets/c44a8c45-978c-451f-9366-6f0b751d20cb" />
 
-Page 2:The second page focuses on predictions. The admin can predict the price of any device based on market data. Two machine learning models based on Linear Regression were used: one predicts the best price of a laptop, and the other predicts the best price of a phone.
+Price Prediction :The second page focuses on predictions. The admin can predict the price of any device based on market data. Two machine learning models based on Linear Regression were used: one predicts the best price of a laptop, and the other predicts the best price of a phone.
 
 
 <img width="1550" height="722" alt="Predictions Page2" src="https://github.com/user-attachments/assets/39fc8a54-b4b3-46a1-abf3-859cd563326f" />
 
-Page 3: The main focus of this page is to display customer repair requests and order requests. The admin can toggle the status of any request once it is completed, and the sales details (cost, revenue, and profit) will automatically be added to the Sales and Profits table (last page).
+Repair and Orders : The main focus of this page is to display customer repair requests and order requests. The admin can toggle the status of any request once it is completed, and the sales details (cost, revenue, and profit) will automatically be added to the Sales and Profits table (last page).
 
 <img width="1551" height="725" alt="Repair request page 3" src="https://github.com/user-attachments/assets/41611512-7ed6-43be-a7a0-013af24144bf" />
 
@@ -31,7 +31,7 @@ Page 3: The main focus of this page is to display customer repair requests and o
 
 Order Tab: Two cases are considered. If the requested quantity exists in stock, the customer directly receives the order. If the quantity is not available, the retailer must request it from the supplier, and this is where Page 4 comes into play.
 
-Page 4: The idea is that the retailer selects the nearest supplier to minimize transportation costs. The map is used for this purpose, and by simply clicking on any supplier, the admin can either place a call or create an order with that supplier.
+Suppliers : The idea is that the retailer selects the nearest supplier to minimize transportation costs. The map is used for this purpose, and by simply clicking on any supplier, the admin can either place a call or create an order with that supplier.
 
 <img width="1307" height="613" alt="Example Page4" src="https://github.com/user-attachments/assets/050fc9b3-fa36-44f3-84ab-efd5d6da2b09" />
 
@@ -43,7 +43,7 @@ Order Details:
 
 <img width="1550" height="721" alt="Supplier and Order Details" src="https://github.com/user-attachments/assets/bdf67b41-1d68-4f97-a58f-f0907f70f152" />
 
-Page 5: Sales and Profits: This page displays all transactions in a table, representing completed order requests or repair requests. On the right, the most frequently asked questions by the admin are answered dynamically using charts.
+Sales and Profits : Sales and Profits: This page displays all transactions in a table, representing completed order requests or repair requests. On the right, the most frequently asked questions by the admin are answered dynamically using charts.
 
 <img width="1550" height="718" alt="Sales and profits page5" src="https://github.com/user-attachments/assets/a5c5b7eb-77af-4297-82f0-867051464995" />
 
