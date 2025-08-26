@@ -4,7 +4,7 @@
 
 During the internship at inmind.ai, the final project involved developing a dashboard for the admin of an electronics retail business operating several branches across different countries. This project is a supply chain project, with the admin acting as the retailer.
 
-Note:This project is done in Palantir Foundry and Due to Palantir’s limitations, only screenshots with explanations will be provided for this project.
+Note: This project is done in Palantir Foundry and Due to Palantir’s limitations, only screenshots with explanations will be provided for this project.
 
 This is how the data lineage looks and how the data flows. Additionally, health checks are performed on the input, such as schema validation, and expectations are applied to the output, including last time build and primary key checks. A schedule is also set up to trigger the output whenever the connected input is updated.
 
@@ -73,6 +73,8 @@ Sales and Profits : Sales and Profits: This page displays all transactions in a 
 For example, let’s assume the admin clicks on Revenue and Cost per Month: an overlay will open displaying the charts, with an option to download them as a PDF. The charts are dynamic, meaning any applied filter will affect all of them.
 
 <img width="1549" height="723" alt="Q5 page5" src="https://github.com/user-attachments/assets/752b5e14-a39e-4899-8947-d97d5eae5f7d" />
+
+When clicking on ‘Export as PDF,’ the charts will be exported as a PDF.
 
 <img width="1600" height="859" alt="pdf" src="https://github.com/user-attachments/assets/5276790b-5024-4a5f-968c-2e9762871f87" />
 
