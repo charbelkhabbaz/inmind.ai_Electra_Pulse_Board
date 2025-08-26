@@ -12,4 +12,4 @@ Page 1: On the first page, the admin can Create, Edit, or Delete any device in t
 
 <img width="1551" height="722" alt="Page1Overlay" src="https://github.com/user-attachments/assets/c44a8c45-978c-451f-9366-6f0b751d20cb" />
 
-<img width="1547" height="720" alt="Save for later on or apply the scenario on real data" src="https://github.com/user-attachments/assets/f90cabbc-6d6a-4fe6-9076-136deb87fe27" />
+<img width="1550" height="724" alt="Scenarios(edit price or discount)" src="https://github.com/user-attachments/assets/e63ed937-92d0-4f4f-b55c-4b38b4b018d5" />
