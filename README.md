@@ -6,6 +6,22 @@ During the internship at inmind.ai, the final project involved developing a dash
 
 Note:This project is done in Palantir Foundry and Due to Palantir’s limitations, only screenshots with explanations will be provided for this project.
 
+This is how the data lineage looks and how the data flows. Additionally, health checks are performed on the input, such as schema validation, and expectations are applied to the output, including last build time and primary key checks. A schedule is also set up to trigger the output whenever the connected input is updated.
+
+<img width="1284" height="550" alt="Data Lineage" src="https://github.com/user-attachments/assets/3697d7a8-a0c9-497d-aa5d-dc63bfc74bba" />
+
+Tools used in Palantir Foundry:
+- Code repository (For data cleaning using PySpark and creating functions using TypeScript)
+- Pipeline Builder
+- Data Lineage
+- Monitoring View
+- Quiver
+- Workshop 
+- Ontology Manager (Actions)
+- Solution Designer
+- Jupyter Notebook (For Machine Learning)
+- Health Checks & Schedules
+
 Inventory: On the first page, the admin can Create, Edit, or Delete any device in the inventory. In addition, the admin can create scenarios to change prices (either by editing the price or applying a discount) and observe how the dashboard reacts. This feature helps the admin make informed business decisions. Scenarios can be saved for later use, shared with other admins, or applied directly to update the real data in the dashboard.
 
 <img width="1544" height="723" alt="page1" src="https://github.com/user-attachments/assets/907e75a9-a1c2-467a-b84c-aad4e8d7a44a" />
